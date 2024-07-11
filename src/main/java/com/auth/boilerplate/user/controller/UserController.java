@@ -3,6 +3,7 @@ package com.auth.boilerplate.user.controller;
 import com.auth.boilerplate.common.dto.CommonResponse;
 import com.auth.boilerplate.common.handler.ResponseHandler;
 import com.auth.boilerplate.user.dto.JoinRequest;
+import com.auth.boilerplate.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
