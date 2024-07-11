@@ -7,6 +7,9 @@ public class JoinRequest {
     private String password;
 
     public User toUser() {
-        
+        return User.builder()
+                .email(email)
+                .password(password)
+                .build();
     }
 }
