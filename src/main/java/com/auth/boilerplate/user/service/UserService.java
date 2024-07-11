@@ -11,6 +11,6 @@ public class UserService {
     private static UserRepository userRepository;
 
     public void join(JoinRequest joinRequest) {
-        userRepository.save()
+        userRepository.save(joinRequest.toUser());
     }
 }
